@@ -1,0 +1,14 @@
+{
+  "name": "Set Auto Layout",
+  "version": "1.0.0",
+  "description": "Setup auto layout by keyboard.",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.39.1"
+  }
+}

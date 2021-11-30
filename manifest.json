@@ -1,0 +1,46 @@
+{
+  "name": "Set Auto Layout",
+  "id": "1045721650686458069",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ],
+
+  "parameters": [
+    {
+      "name": "Layout Mode",
+      "key": "layout-mode"
+    },
+
+    {
+      "name": "Padding Left",
+      "key": "padding-left",
+      "allowFreeform": true,
+      "optional": true
+    },
+
+    {
+      "name": "Padding Right",
+      "key": "padding-right",
+      "allowFreeform": true,
+      "optional": true
+    },
+
+    {
+      "name": "Padding Top",
+      "key": "padding-top",
+      "allowFreeform": true,
+      "optional": true
+    },
+
+    {
+      "name": "Padding Bottom",
+      "key": "padding-bottom",
+      "allowFreeform": true,
+      "optional": true
+    }
+
+  ]
+}
+

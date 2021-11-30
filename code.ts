@@ -1,6 +1,18 @@
 // TODO 可以限制只能輸入數字嗎？
 // TODO paremeter.on 要做檢查是否有物件被選擇、檢查 node type 是否為 FRAME
 
+figma.parameters.on('input', ({query, key, result}: ParameterInputEvent) => {
+  switch (key) {
+    case 'layout-mode':
+      result.setSuggestions(["Horizontal", "Vertical"])
+      
+      break;
+  
+    default:
+      console.log("Default!")
+      break;
+  }
+})
 
 function SetAutoLayout() {
   const setLayer = figma.currentPage.selection[0];

@@ -6,41 +6,19 @@
   "editorType": [
     "figma"
   ],
+  "parameterOnly": true,
 
   "parameters": [
     {
-      "name": "Layout Mode",
-      "key": "layout-mode"
+      "name": "Align direction",
+      "key": "alignDirection",
+      "description": "Choose to align vertical or horizontal."
     },
-
+    
     {
-      "name": "Padding Left",
-      "key": "padding-left",
-      "allowFreeform": true,
-      "optional": true
-    },
-
-    {
-      "name": "Padding Right",
-      "key": "padding-right",
-      "allowFreeform": true,
-      "optional": true
-    },
-
-    {
-      "name": "Padding Top",
-      "key": "padding-top",
-      "allowFreeform": true,
-      "optional": true
-    },
-
-    {
-      "name": "Padding Bottom",
-      "key": "padding-bottom",
-      "allowFreeform": true,
-      "optional": true
+      "name": "Align direction",
+      "key": "alignDirection",
+      "description": "Choose to align vertical or horizontal."
     }
-
   ]
 }
-

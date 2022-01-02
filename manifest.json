@@ -14,11 +14,12 @@
       "key": "alignDirection",
       "description": "Choose to align vertical or horizontal."
     },
-    
+
     {
-      "name": "Align direction",
-      "key": "alignDirection",
-      "description": "Choose to align vertical or horizontal."
+      "name": "Padding",
+      "key": "padding",
+      "description": "Set padding, use comma to separate attributes, ex: 24 24 12 12",
+      "allowFreeform": true
     }
   ]
 }

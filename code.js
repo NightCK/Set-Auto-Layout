@@ -13,6 +13,7 @@ figma.parameters.on('input', ({ key, query, result }) => {
             const directionsSuggestion = ["VERTICAL", "HORIZONTAL"];
             result.setSuggestions(directionsSuggestion.filter(s => s.includes(query))); // filter() 是一個方法，還不太確定原理。
             break;
+        case 'padding':
     }
     return;
 });

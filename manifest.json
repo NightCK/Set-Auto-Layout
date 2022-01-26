@@ -13,12 +13,6 @@
       "name": "Align direction",
       "key": "alignDirection",
       "description": "Choose to align vertical or horizontal."
-    },
-    
-    {
-      "name": "Align direction",
-      "key": "alignDirection",
-      "description": "Choose to align vertical or horizontal."
     }
   ]
 }

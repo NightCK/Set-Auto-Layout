@@ -13,6 +13,18 @@
       "name": "Align direction",
       "key": "alignDirection",
       "description": "Choose to align vertical or horizontal."
+    },
+    {
+      "name": "Item Spacing",
+      "key": "itemSpacing",
+      "description": "Enter the value of item spacing",
+      "allowFreeform": true
+    },
+    {
+      "name": "Padding",
+      "key": "padding",
+      "description": "Separate the value by comma.",
+      "allowFreeform": true
     }
   ]
 }

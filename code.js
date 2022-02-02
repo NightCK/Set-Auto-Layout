@@ -37,15 +37,21 @@ figma.parameters.on('input', ({ key, query, result }) => {
     return;
 });
 figma.on('run', ({ parameters }) => {
-    if (figma.currentPage.selection[0].type === "FRAME") {
+    if (figma.currentPage.selection.length === 0) {
+        return figma.closePlugin("Please select a frame.");
+    }
+    else if (figma.currentPage.selection[0].type !== "FRAME") {
+        return figma.closePlugin("Please select a frame.");
+    }
+    else if (figma.currentPage.selection.length >= 2) {
+        return figma.closePlugin("Please select just 1 frame.");
+    }
+    else {
         let setFrame = figma.currentPage.selection[0];
         setFrame.layoutMode = parameters.alignDirection;
         setPadding(parameters, setFrame);
         setFrame.itemSpacing = parseInt(parameters.itemSpacing);
         return figma.closePlugin("Done!");
-    }
-    else {
-        return figma.closePlugin("Please select a frame.");
     }
 });
 function setPadding(parameters, setFrame) {
